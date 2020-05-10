@@ -1,4 +1,4 @@
-# Assignment Codes
+# Sample Codes
 
-Assignment codes of online courses, and pet coding projects. Refer to the readme on the each folder for description. 
+Assignment codes of online courses, and coding projects. Refer to the readme on the each folder for description. 
 
