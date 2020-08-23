@@ -1,0 +1,43 @@
+/*
+Number of Good Pairs
+<T> Array
+
+Given: arr -> nums
+        pair i,j called good if
+            nums[i] == nums[j
+            i < j 
+
+
+Simple brute force O(n^2)
+
+Better solution is hashmap O(n)
+
+I'll do the first one
+
+
+*/
+
+
+class Solution {
+    public int numIdenticalPairs(int[] nums) {
+        
+        int count = 0;
+        
+        for(int i=0; i<nums.length-1; i++){
+            
+            for (int j = i+1; j< nums.length; j++){
+                
+                if (nums[i] == nums[j] && i < j){
+                    count++;
+                }
+                
+            }
+            
+            
+            
+        }
+        
+        return count;
+        
+    }
+}
